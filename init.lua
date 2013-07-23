@@ -1,3 +1,5 @@
-function foo()
-	print("bar")
-end
+local sandblox = {}
+
+local box = require("sandblox.box")
+
+return sandblox
